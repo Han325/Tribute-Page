@@ -1,0 +1,146 @@
+#main {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0px;
+    height: 1700px;
+    width: 100%;
+    background: #FDFEFE;
+    }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    font-family: Arial;
+    }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #title h1{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+  }
+
+  #title p {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-family: Arial;
+    font-size:15px;
+  }
+
+  #image {
+    position: relative;
+    top: -30px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+    margin: -10;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    border: 2px solid #F3F3F3;
+  }
+
+  #img-caption{
+    position: relative;
+    top: -30px;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+  }
+
+  #about {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    font-family: Arial;
+  }
+
+  #tribute-info p {
+    position: relative;
+    font-family: Arial;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.4;
+    width: 50%;
+    margin: 0 auto 50px auto;
+  }
+
+  hr {
+    margin: 0 0 0 0;
+    border-top: 1px;
+    top: 100px;
+    text-align: center;
+  }
+
+  #timeline {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 25px
+  }
+
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-family: Arial;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+
+  #quotes{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 25px;
+  }
+
+  #quotes-section p {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    font-family: Arial;
+    font-style: italic;
+  }
+
+  #tribute-link{
+    position: relative;
+    font-family: Arial;
+    margin-left: 70px;
+    margin-right: 70px;  
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  footer{
+    position: relative;
+    bottom: -100px;
+    text-align: center;
+    font-family: Arial;
+    color: grey;
+  }
